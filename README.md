@@ -443,13 +443,13 @@ kubectl get svc -n employee-app
 
 # 📸 Screenshots
 
-Add screenshots here:
+# 📸 Application Homepage
 
-- Application Homepage
-- kubectl get nodes
-- kubectl get pods
-- kubectl get svc
-- Browser Output
+![Employee Portal](screen-shotsss/browser-homepage.png)
+
+# ☸️ Kubernetes Pods and Nodes
+
+![Kubernetes](screen-shotsss/kubectl-pods-n-nodes.png)
 
 ---
 
