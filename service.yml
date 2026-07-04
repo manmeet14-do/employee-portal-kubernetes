@@ -1,0 +1,20 @@
+kind: Service
+apiVersion: v1
+
+
+metadata:
+  name: employee-service
+  namespace: employee-app
+
+
+spec:
+  selector:
+     app: employee-app
+
+
+  ports:
+    - port: 80
+      targetPort: 5000
+      nodePort: 30082
+
+  type: NodePort
